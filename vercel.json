@@ -21,9 +21,5 @@
       "src": "/(.*)",
       "dest": "frontend/dist/$1"
     }
-  ],
-  "env": {
-    "MONGO_URI": "@mongo_uri",
-    "SECRET_KEY": "@secret_key"
-  }
+  ]
 }
